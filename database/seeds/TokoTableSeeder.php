@@ -34,9 +34,9 @@ class TokoTableSeeder extends Seeder
             2 => 
             array (
                 'toko_id' => 3,
-                'toko_nama' => 'Castle Inc',
-                'toko_alamat' => 'Krapyak',
-                'toko_telp' => '088233441221',
+                'toko_nama' => 'Castle Inc V2',
+                'toko_alamat' => 'Krapyak 2',
+                'toko_telp' => '088233441222',
             ),
         ));
         
