@@ -8,14 +8,8 @@
                 <div class="card-header">Grafik Penjualan
                 </div>
                 <div class="card-body">
-                    @php $n=0; @endphp
-                    @foreach($hasil as $h)
-                    <?= Lava::render('ColumnChart', 'Finances'.$n.'-', 'view'.$n) ; ?>
-                    <div id='view{{$n}}'></div>
-                    @php $n++; @endphp
-                    @endforeach
-                    
-                    
+                <div id="perf_div"></div>
+                    <?= Lava::render('ColumnChart', 'Finances', 'perf_div') ?>
                 </div>
                 
             </div>
